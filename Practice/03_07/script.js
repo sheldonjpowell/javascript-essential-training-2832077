@@ -7,3 +7,13 @@
  * - Find an object that has another object inside of it to create a nested object.
  * - Test your objects in the browser console by accessing the entire object and its specific properties.
  */
+const backpack = {
+    name: "Schwin",
+    color: "Navy Blue",
+    pouches: 8,
+    strapsLength: {
+        left: 10,
+        right: 10
+    }
+
+}
